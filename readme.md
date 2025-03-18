@@ -1,6 +1,6 @@
 # Minecraft Quick Disconnect Script
 
-A **Linux-based macro** using `xdotool` to **instantly disconnect from Minecraft** by pressing the **backtick (`) key** (Shift + Tilde). This is useful for **combat logging** or **quickly exiting the game** in emergencies.
+A **Linux-based macro** using `xdotool` to **instantly disconnect from Minecraft** by pressing the **backtick (`) key** (same key as Tilde key). This is useful for **combat logging** or **quickly exiting the game** in emergencies.
 
 ---
 
@@ -35,7 +35,7 @@ Paste the following script:
   ```bash
   #!/bin/bash
   xdotool key Escape  # Press ESC to open pause menu
-  sleep 0.1  # Short delay (100ms)
+  sleep 0.01  # Short delay (100ms)
   xdotool mousemove 1248 630  # Move mouse to "Disconnect" button (adjust if needed)
   sleep 0.05  # Small delay (50ms)
   xdotool click 1  # Click to disconnect
