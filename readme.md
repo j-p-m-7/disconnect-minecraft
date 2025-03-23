@@ -4,7 +4,7 @@ A **Linux-based macro** using `xdotool` to **instantly disconnect from Minecraft
 
 ---
 
-## 📦 Requirements
+## Requirements
 Ensure the following packages are installed:
 
 - **xdotool** (for simulating keyboard and mouse actions)
@@ -14,7 +14,7 @@ Ensure the following packages are installed:
   ```
 ---
 
-## ⚡ What It Does
+## What It Does
 - Pressing the **backtick (`) key** will:
   1. **Open the pause menu** (`ESC` key).
   2. **Move the mouse** to the "Disconnect" button.
@@ -24,9 +24,9 @@ This allows for **fast logout** in multiplayer situations.
 
 ---
 
-## 🔧 Setup & Installation
+## Setup & Installation
 
-### 1️⃣ **Create the Script**
+### 1️ **Create the Script**
   ```bash
   nano ~/.local/bin/disconnect_minecraft.sh
   ```
@@ -43,12 +43,12 @@ Paste the following script:
 
 Save and exit (`CTRL + X`, then `Y`, then `ENTER`).
 
-### 2️⃣ **Make It Executable**
+### 2️ **Make It Executable**
   ```bash
   chmod +x ~/.local/bin/disconnect_minecraft.sh
   ```
 
-### 3️⃣ **Bind the Script to the Backtick (`) Key**
+### 3️ **Bind the Script to the Backtick (`) Key**
 1. Open **Ubuntu Settings > Keyboard Shortcuts**.
 2. Click **"Add Custom Shortcut"**.
    - **Name:** `Minecraft Quick Disconnect`
@@ -61,7 +61,7 @@ Save and exit (`CTRL + X`, then `Y`, then `ENTER`).
 
 ---
 
-## ✅ Testing the Script
+## Testing the Script
 1. Open **Minecraft (Multiplayer or Singleplayer)**.
 2. Press **Backtick (`) Key** to **instantly disconnect**.
 3. If it doesn’t work, ensure:
@@ -71,7 +71,7 @@ Save and exit (`CTRL + X`, then `Y`, then `ENTER`).
 
 ---
 
-## 🎯 Troubleshooting
+## Troubleshooting
 | Issue | Solution |
 |--------|----------|
 | Script doesn't work | Run manually: `~/.local/bin/disconnect_minecraft.sh` |
@@ -81,10 +81,10 @@ Save and exit (`CTRL + X`, then `Y`, then `ENTER`).
 
 ---
 
-## 🚀 Future Improvements
-- 🛠 **Auto-detect "Disconnect" button position.**
-- ⏩ **Reduce delay further for instant execution.**
-- 🖱️ **Alternative method using AutoKey instead of xdotool.**
+## Future Improvements
+- **Auto-detect "Disconnect" button position.**
+- **Reduce delay further for instant execution.**
+- **Alternative method using AutoKey instead of xdotool.**
 
 ---
 
