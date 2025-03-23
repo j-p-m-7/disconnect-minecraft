@@ -26,7 +26,7 @@ This allows for **fast logout** in multiplayer situations.
 
 ## Setup & Installation
 
-### 1 **Create the Script**
+### 1. **Create the Script**
   ```bash
   nano ~/.local/bin/disconnect_minecraft.sh
   ```
@@ -43,12 +43,12 @@ Paste the following script:
 
 Save and exit (`CTRL + X`, then `Y`, then `ENTER`).
 
-### 2 **Make It Executable**
+### 2. **Make It Executable**
   ```bash
   chmod +x ~/.local/bin/disconnect_minecraft.sh
   ```
 
-### 3 **Bind the Script to the Backtick (`) Key**
+### 3. **Bind the Script to the Backtick (`) Key**
 1. Open **Ubuntu Settings > Keyboard Shortcuts**.
 2. Click **"Add Custom Shortcut"**.
    - **Name:** `Minecraft Quick Disconnect`
