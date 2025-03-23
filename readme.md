@@ -88,5 +88,5 @@ Save and exit (`CTRL + X`, then `Y`, then `ENTER`).
 
 ---
 
-### **Enjoy Quick-Disconnecting! 🏃💨**
+### **Enjoy Quick-Disconnecting!**
 
