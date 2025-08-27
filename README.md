@@ -1,7 +1,7 @@
-shell script to quickly disconnect from a multiplayer session
+This is a shell script to quickly disconnect from a multiplayer session on the hit game Minecraft™.
 
-this is colloquially known as "combat logging"
+This is colloquially known as "combat logging".
 
-map this shell script to a keybind and people will accuse you of hacking
+Map this shell script to a key on your keyboard and watch as people accuse you of hacking.
 
-use at your own risk
+Use at your own risk.
